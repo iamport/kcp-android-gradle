@@ -18,16 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <!-- ISP 앱의 경우 scheme에 대한 intent-filter가 없어도 자동으로 복귀하게 됩니다 -->
+            <!-- ISP, Bankpay, 카드사앱, PAYCO 모두 scheme에 대한 intent-filter가 없어도 자동으로 복귀하게 됩니다 -->
             <!-- 본 예제의 경우 WebView로 결제프로세스를 시작하는 Activity로 복귀해야 하므로 singleInstance를 선언합니다 -->
-            <intent-filter>
+            <!--<intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="iamporttest" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
     </application>
 
