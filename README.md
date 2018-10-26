@@ -1,4 +1,4 @@
-# kcp-android-graddle
+# kcp-android-gradle
 KCP안드로이드 결제연동 샘플입니다. 
 
 ## 인증앱으로 이동  
